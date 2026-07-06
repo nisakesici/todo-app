@@ -1,16 +1,75 @@
-# React + Vite
+# React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern React ve Tailwind CSS kullanılarak geliştirilmiş kullanıcı yönetimi (CRUD) uygulaması.
 
-Currently, two official plugins are available:
+## Canlı Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://reactodoappp.netlify.app
 
-## React Compiler
+## GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://github.com/nisakesici/todo-app
 
-## Expanding the ESLint configuration
+## Proje Özellikleri
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Kullanıcı ekleme
+- Kullanıcı listeleme
+- Kullanıcı güncelleme
+- Kullanıcı silme
+- LocalStorage ile verileri saklama
+- React Router ile sayfa geçişleri
+- Responsive tasarım
+- Component yapısı kullanımı
+
+## Kullanılan Teknolojiler
+
+- React
+- Vite
+- React Router DOM
+- Tailwind CSS
+- JavaScript
+- LocalStorage
+
+## Proje Yapısı
+
+```
+src
+│
+├── Components
+│   ├── TodoList.jsx
+│   └── UserList.jsx
+│
+├── Pages
+│   ├── Home.jsx
+│   └── Users.jsx
+│
+├── Interfaces
+│
+├── assets
+│
+├── App.jsx
+└── main.jsx
+```
+
+## Kurulum
+
+```bash
+git clone https://github.com/nisakesici/todo-app.git
+cd todo-app
+npm install
+npm run dev
+```
+
+## CRUD İşlemleri
+
+✅ Create (Ekle)
+
+✅ Read (Listele)
+
+✅ Update (Güncelle)
+
+✅ Delete (Sil)
+
+## Ekran Görüntüsü
+
+Proje arayüzü GitHub deposunda ve Netlify canlı bağlantısında görüntülenebilir.
